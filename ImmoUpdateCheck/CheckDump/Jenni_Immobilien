@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="de" itemscope itemtype="http://schema.org/LocalBusiness">
+<head prefix="og: http://ogp.me/ns#; dcterms: http://purl.org/dc/terms/#"><script type="text/javascript">
+    /*! js-ready - v0.0.1
+    * https://github.com/zombiept2/js-ready
+    * Copyright (c) 2014; Licensed MIT */
+    var ready=(function(){var f,b,c={};c["[object Boolean]"]="boolean";c["[object Number]"]="number";c["[object String]"]="string";c["[object Function]"]="function";c["[object Array]"]="array";c["[object Date]"]="date";c["[object RegExp]"]="regexp";c["[object Object]"]="object";var d={isReady:false,readyWait:1,holdReady:function(g){if(g){d.readyWait++}else{d.ready(true)}},ready:function(g){if((g===true&&!--d.readyWait)||(g!==true&&!d.isReady)){if(!document.body){return setTimeout(d.ready,1)}d.isReady=true;if(g!==true&&--d.readyWait>0){return}f.resolveWith(document,[d])}},bindReady:function(){if(f){return}f=d._Deferred();if(document.readyState==="complete"){return setTimeout(d.ready,1)}if(document.addEventListener){document.addEventListener("DOMContentLoaded",b,false);window.addEventListener("load",d.ready,false)}else{if(document.attachEvent){document.attachEvent("onreadystatechange",b);window.attachEvent("onload",d.ready);var g=false;try{g=window.frameElement==null}catch(h){}if(document.documentElement.doScroll&&g){a()}}}},_Deferred:function(){var j=[],k,h,i,g={done:function(){if(!i){var m=arguments,n,q,p,o,l;if(k){l=k;k=0}for(n=0,q=m.length;n<q;n++){p=m[n];o=d.type(p);if(o==="array"){g.done.apply(g,p)}else{if(o==="function"){j.push(p)}}}if(l){g.resolveWith(l[0],l[1])}}return this},resolveWith:function(m,l){if(!i&&!k&&!h){l=l||[];h=1;try{while(j[0]){j.shift().apply(m,l)}}finally{k=[m,l];h=0}}return this},resolve:function(){g.resolveWith(this,arguments);return this},isResolved:function(){return !!(h||k)},cancel:function(){i=1;j=[];return this}};return g},type:function(g){return g==null?String(g):c[Object.prototype.toString.call(g)]||"object"}};function a(){if(d.isReady){return}try{document.documentElement.doScroll("left")}catch(g){setTimeout(a,1);return}d.ready()}if(document.addEventListener){b=function(){document.removeEventListener("DOMContentLoaded",b,false);d.ready()}}else{if(document.attachEvent){b=function(){if(document.readyState==="complete"){document.detachEvent("onreadystatechange",b);d.ready()}}}}function e(h){d.bindReady();var g=d.type(h);f.done(h)}return e})();
+
+    var ajaxURL = '/de/ajax/';
+</script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- ✘  meta_title_objects_index -->
+<!-- ✘  meta_keywords_objects_index -->
+<!-- ✘  meta_description_objects_index -->
+<title>Jenni Immobilien Treuhand AG - Liste der Objekte</title>
+
+<meta name="keywords" content="Jenni Immobilien Treuhand AG - Liste der Objekte" />
+
+
+<meta name="description" content="Jenni Immobilien Treuhand AG - Liste der Objekte" />
+
+<link rel="shortcut icon" href="https://static.immomigsa.ch/courtage/1075/pictures/favicon.ico" type="image/ico" />
+
+<meta name="language" content="de" />
+
+<link rel="canonical" href="https://angebote.jenni-immo.ch/de/objects/" />
+<link rel="alternate" hreflang="de" href="https://angebote.jenni-immo.ch/de/objects/" />
+<link rel="alternate" hreflang="fr" href="https://angebote.jenni-immo.ch/fr/objects/" />
+<link rel="alternate" hreflang="it" href="https://angebote.jenni-immo.ch/it/objects/" /><meta name="DCTERMS.title" content="Jenni Immobilien Treuhand AG - Liste der Objekte" />
+<meta name="DCTERMS.description" content="Jenni Immobilien Treuhand AG - Liste der Objekte" />
+<meta name="DC.subject" content="Jenni Immobilien Treuhand AG - Liste der Objekte" />
+<meta name="DC.language" content="de" />
+<!-- Add custom meta tags-->    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1" />
+<meta id="open_graph_meta_graph_url" property="og:url" content="https://angebote.jenni-immo.ch/de/objects/" />
+
+    <meta id="open_graph_meta_graph_content_type" property="og:type" content="website" />
+            <meta id="open_graph_meta_graph_title" property="og:title" content="Jenni Immobilien Treuhand AG - Liste der Objekte" />
+        
+    <meta id="open_graph_meta_graph_image" prefix="og: http://ogp.me/ns#" property="og:image" content="https://static.immomigsa.ch/courtage/1075/pictures/logo.png?1559057671" />
+    <meta id="open_graph_meta_graph_image_secure" property="og:image:secure_url" content="https://static.immomigsa.ch/courtage/1075/pictures/logo.png?1559057671">
+<!-- JQUERY -->
+<script type="text/javascript" src="/global/js/jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/global/js/jquery/ui-1.11.0/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/global/js/jquery/ui-1.11.0/jquery-ui.min.css" media="all"/>
+<script type="text/javascript" src="/global/js/jquery/plugins/stadiaMaps/mapbox-gl.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/global/js/jquery/plugins/stadiaMaps/mapbox-gl.css" media="all"/>
+<script type="text/javascript" src="/global/js/jquery/plugins/touchSwipe/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="/global/js/jquery/plugins/touchEvents/touchEvents.js"></script>
+<script type="text/javascript" src="/global/js/jquery/plugins/magnific-popup/magnific-popup_0.9.9_min.js"></script>
+<link rel="stylesheet" type="text/css" href="/global/js/jquery/plugins/magnific-popup/magnific-popup.css" media="all"/>
+<script type="text/javascript" src="/global/js/jquery/plugins/multiselect/jquery.multiselect.awesome-checkbox.js"></script>
+<link rel="stylesheet" type="text/css" href="/global/css/multiselect/jquery.multiselect.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="/global/css/font-awesome-4.3.0/css/font-awesome.min.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="/global/js/jquery/plugins/owlCarousel/owl.carousel.css" media="all"/>
+<script type="text/javascript" src="/global/js/jquery/plugins/owlCarousel/owl.carousel.js"></script>
+<script type="text/javascript" src="/global/js/jquery/plugins/iframe-resizer/iframeResizer.contentWindow_2.8.8.min.js"></script>
+<script type="text/javascript" src="/global/js/markerclusterer/markerclusterer_custom.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/standard2/base.css.php?v=28f53cc498be70b43e40096c9ed2a82d" media="all"/>
+
+    <link rel="stylesheet" type="text/css" href="/css/standard2/standard2.css.php?v=28f53cc498be70b43e40096c9ed2a82d" media="all"/>
+
+
+    <link rel="stylesheet" type="text/css" href="/global/themes/integration2b/perso2.css.php?v=28f53cc498be70b43e40096c9ed2a82d" media="all"/>
+
+        <link rel="stylesheet" type="text/css" href="/css/standard2/colors.css.php?v=28f53cc498be70b43e40096c9ed2a82d" media="all"/>
+
+
+
+    <link rel="stylesheet" type="text/css" href="/css/standard2/responsive.css.php?v=28f53cc498be70b43e40096c9ed2a82d" media="all"/>
+
+        <link rel="stylesheet" type="text/css" href="/css/standard2/mobile.css.php?v=28f53cc498be70b43e40096c9ed2a82d" media="all"/>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/standard2/print.css.php?v=28f53cc498be70b43e40096c9ed2a82d" media="print"/>
+	<script src="/js/standard2/standard2.js.php"></script>
+
+<script src="/js/immomig_courtage.js.php" ></script>
+
+
+<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    
+    
+    
+    
+    <!-- Add additional code for loading in <head> tag-->
+</head>
+
+<style type="text/css">
+    #global .center_content {
+        max-width:none;
+    }
+</style>
+
+<body class="body_objects_index template_integration2b browser_chrome notouchscreen">
+	<div id="global">
+    	            <div id="header_logo_integrated">
+                <div id="logo_box" class="logo_pos_center">
+    <a id="logo" href="https://www.jenni-immo.ch">
+        <img src="https://static.immomigsa.ch/courtage/1075/pictures/logo_web_650x180.png?1559057893" alt="Jenni Immobilien Treuhand AG - Liste der Objekte" />
+        <h1>Jenni Immobilien Treuhand AG - Liste der Objekte</h1>
+    </a>
+</div>            </div>
+    	
+        <div role="main" id="container">
+            <div class="center_content">
+            		<div id="menu_top">
+	    
+
+    <div class="menu_top_module lang ">
+<a class="lang_link selected" href="/de/objects/index/">De</a><a class="lang_link" href="/fr/objects/index/">Fr</a><a class="lang_link last" href="/it/objects/index/">It</a>        </div>
+    
+    <div class="menu_top_module currency">
+        <form action="/de/objects/index/" method="post">
+            <select name="my_currency" id="my_currency" size="1" onchange="submit()">
+                                    <option  selected="selected"                         value="1">
+                        CHF                    </option>
+                                    <option                         value="2">
+                        EUR                    </option>
+                                    <option                         value="3">
+                        USD                    </option>
+                                    <option                         value="4">
+                        GBP                    </option>
+                            </select>
+            <input name="form" value="currency" type="hidden"/>
+        </form>
+    </div>
+	<div class="menu_top_module login">
+									<a class="login_link login_popup_button" id="login_popup_button" href="/de/main/login">Login</a>
+				                                <input id="current_route" type="hidden" value="https://angebote.jenni-immo.ch/de/objects/index/"/>
+			            <script>
+                ready(function() {
+                    magnificPopupLoginScript('login_popup_button');
+                });
+            </script>
+        	</div>
+	</div>
+            <script type="text/javascript">
+	var cookie_alert_button = function () {
+		setTimeout(function(){
+			location.reload();
+		}, 2000);
+	}
+</script>
+<div id="cookie_alert" class="warning_box hide"><span class="cookie_alert_text">Diese Seite kann aufgrund Ihrer Cookie Einstellungen nicht richtig funktionieren</span>
+<a class="button cookie_alert_button" onclick="cookie_alert_button();" href='/de/main/setcookie' target='_blank'>Click here to fix</a>
+<div class="clear"></div></div>
+
+<div class="content objects_container_search_results_item  filter_left filter_position_left" id="object_container">
+    <div id="search_filter_test">
+    <script type="text/javascript">
+    ready(function() {
+        $("#default_filter").val($('.objects_filter_data').serialize());
+    });
+</script>
+<script type="text/javascript">
+    // pass sliders options from _config to js
+    var slider_options = new Array();
+            slider_options['radius'] = new Array();
+                        slider_options['radius']['max'] = 30;
+                        slider_options['radius']['min'] = 0;
+                        slider_options['radius']['step'] = 1;
+                        slider_options['radius']['default'] = 5;
+                        slider_options['radius']['more'] = false;
+                slider_options['locality_include_radius_id'] = new Array();
+                        slider_options['locality_include_radius_id']['max'] = 30;
+                        slider_options['locality_include_radius_id']['min'] = 0;
+                        slider_options['locality_include_radius_id']['step'] = 5;
+                        slider_options['locality_include_radius_id']['default'] = 5;
+                        slider_options['locality_include_radius_id']['more'] = false;
+                slider_options['locality_radius_id'] = new Array();
+                        slider_options['locality_radius_id']['max'] = 30;
+                        slider_options['locality_radius_id']['min'] = 0;
+                        slider_options['locality_radius_id']['step'] = 5;
+                        slider_options['locality_radius_id']['default'] = 5;
+                        slider_options['locality_radius_id']['more'] = false;
+                slider_options['object_filter_locality_id'] = new Array();
+                        slider_options['object_filter_locality_id']['max'] = 30;
+                        slider_options['object_filter_locality_id']['min'] = 0;
+                        slider_options['object_filter_locality_id']['step'] = 5;
+                        slider_options['object_filter_locality_id']['default'] = 5;
+                        slider_options['object_filter_locality_id']['more'] = false;
+                slider_options['price_sale'] = new Array();
+                        slider_options['price_sale']['max'] = 10000000;
+                        slider_options['price_sale']['min'] = 0;
+                        slider_options['price_sale']['step'] = 50000;
+                        slider_options['price_sale']['step2'] = 100000;
+                        slider_options['price_sale']['step_change'] = 1000000;
+                        slider_options['price_sale']['more'] = true;
+                slider_options['price_rent'] = new Array();
+                        slider_options['price_rent']['max'] = 3000;
+                        slider_options['price_rent']['min'] = 0;
+                        slider_options['price_rent']['step'] = 250;
+                        slider_options['price_rent']['more'] = true;
+                slider_options['pieces'] = new Array();
+                        slider_options['pieces']['max'] = 12;
+                        slider_options['pieces']['min'] = 0;
+                        slider_options['pieces']['step'] = 0.5;
+                        slider_options['pieces']['more'] = true;
+                slider_options['pieces_rent'] = new Array();
+                        slider_options['pieces_rent']['max'] = 12;
+                        slider_options['pieces_rent']['min'] = 0;
+                        slider_options['pieces_rent']['step'] = 0.5;
+                        slider_options['pieces_rent']['more'] = true;
+                slider_options['pieces_sale'] = new Array();
+                        slider_options['pieces_sale']['max'] = 12;
+                        slider_options['pieces_sale']['min'] = 0;
+                        slider_options['pieces_sale']['step'] = 0.5;
+                        slider_options['pieces_sale']['more'] = true;
+                slider_options['rooms'] = new Array();
+                        slider_options['rooms']['max'] = 12;
+                        slider_options['rooms']['min'] = 0;
+                        slider_options['rooms']['step'] = 0.5;
+                        slider_options['rooms']['more'] = true;
+                slider_options['surface'] = new Array();
+                        slider_options['surface']['max'] = 600;
+                        slider_options['surface']['min'] = 0;
+                        slider_options['surface']['step'] = 50;
+                        slider_options['surface']['more'] = true;
+                slider_options['surface_portion'] = new Array();
+                        slider_options['surface_portion']['max'] = 2000;
+                        slider_options['surface_portion']['min'] = 0;
+                        slider_options['surface_portion']['step'] = 50;
+                        slider_options['surface_portion']['more'] = true;
+                slider_options['surface_useful'] = new Array();
+                        slider_options['surface_useful']['max'] = 10000;
+                        slider_options['surface_useful']['min'] = 0;
+                        slider_options['surface_useful']['step'] = 50;
+                        slider_options['surface_useful']['more'] = true;
+                slider_options['surface_total'] = new Array();
+                        slider_options['surface_total']['max'] = 10000;
+                        slider_options['surface_total']['min'] = 0;
+                        slider_options['surface_total']['step'] = 50;
+                        slider_options['surface_total']['more'] = true;
+                slider_options['surface_balanced'] = new Array();
+                        slider_options['surface_balanced']['max'] = 10000;
+                        slider_options['surface_balanced']['min'] = 0;
+                        slider_options['surface_balanced']['step'] = 50;
+                        slider_options['surface_balanced']['more'] = true;
+                slider_options['flats'] = new Array();
+                        slider_options['flats']['max'] = 50;
+                        slider_options['flats']['min'] = 0;
+                        slider_options['flats']['step'] = 5;
+                        slider_options['flats']['more'] = true;
+                slider_options['floor'] = new Array();
+                        slider_options['floor']['max'] = 30;
+                        slider_options['floor']['min'] = 0;
+                        slider_options['floor']['step'] = 1;
+                        slider_options['floor']['more'] = true;
+                slider_options['building_year'] = new Array();
+                        slider_options['building_year']['min'] = 1950;
+                        slider_options['building_year']['step'] = 1;
+                        slider_options['building_year']['more'] = true;
+                        slider_options['building_year']['max'] = 2024;
+                slider_options['restoration_year'] = new Array();
+                        slider_options['restoration_year']['min'] = 1950;
+                        slider_options['restoration_year']['step'] = 1;
+                        slider_options['restoration_year']['more'] = true;
+                        slider_options['restoration_year']['max'] = 2024;
+                slider_options['rental_net'] = new Array();
+                        slider_options['rental_net']['max'] = 2000000;
+                        slider_options['rental_net']['min'] = 0;
+                        slider_options['rental_net']['step'] = 40000;
+                        slider_options['rental_net']['more'] = true;
+                slider_options['yield'] = new Array();
+                        slider_options['yield']['max'] = 10;
+                        slider_options['yield']['min'] = 0;
+                        slider_options['yield']['step'] = 1;
+                        slider_options['yield']['more'] = true;
+                slider_options['nb_parking'] = new Array();
+                        slider_options['nb_parking']['max'] = 50;
+                        slider_options['nb_parking']['min'] = 0;
+                        slider_options['nb_parking']['step'] = 5;
+                        slider_options['nb_parking']['more'] = true;
+        </script>
+<input id="filter_slider_display_smaller" type="hidden" value="< " />
+<input id="filter_slider_display_bigger" type="hidden" value=" +" /><input type="hidden" id="account_id" name="account_id" value="1075">
+<input type="hidden" id="default_filter" value="">
+<input type="hidden" id="objects_search_form_action" value="/de/objects/search-results/" />
+<input type="hidden" name="current_route" id="current_route" class="objects_filter_data" value="objects/index" />
+<input type="hidden" name="object_filter_view_type" id="object_filter_view_type" class="objects_filter_data" value="list" />
+<input type="hidden" name="object_filter_page" id="object_filter_page" class="objects_filter_data" value="1"/>
+<input type="hidden" name="sort_field" id="sort_field"  class="objects_filter_data" value="id" />
+<input type="hidden" name="sort_order" id="sort_order" class="objects_filter_data" value="DESC" />
+
+
+       <input type="hidden" name="object_filter_categories_exclude[]" value="186" class="objects_filter_data" />
+       <input type="hidden" name="object_filter_categories_exclude[]" value="187" class="objects_filter_data" />
+       <input type="hidden" name="object_filter_categories_exclude[]" value="190" class="objects_filter_data" />
+    <div id="filter" class="box">
+        <div class="box_content">
+            <h2 id="filter_title">Objekte</h2>
+            <h2 id="filter_title_mobile">
+                <span class="show_filter">Suchfilter anzeigen</span>
+                <span class="hide_filter">Suchfilter abblenden</span>
+            </h2>
+            <div id="filter_content_mobile">
+
+                
+                
+                                        
+                        <div id="filter_categories">
+    <script language="JavaScript">
+        var filterLoadSubcategories = function () {
+            $('#subcategories_multiselect').removeClass('objects_filter_data');
+            $.post(
+                "/de/objects/filter-subcategories",
+                $("input[name='object_filter_deal']").serialize() + "&" + $("input[name^='object_filter_categories'], #categories_multiselect").serialize(),
+                function (data) {
+                    $('#filter_subcategories').html(data);
+                    createJsCheckboxes($("input[name^='object_filter_subcategories']:not(.awesome-checkbox), input[name^='multiselect_subcategories_multiselect']:not(.awesome-checkbox)"));
+                }
+            );
+        }
+
+        ready(function() {
+            var filter_categories = new Array();
+            filter_categories[1]   = ["pieces", "rooms", "surface", "building_year", "restoration_year", "nb_parking"]; // apartment
+            filter_categories[2]   = ["pieces", "rooms", "surface", "surface_portion", "building_year", "restoration_year", "nb_parking"]; // house
+            filter_categories[3]   = ["surface_portion"]; // terrain
+            filter_categories[4]   = ["pieces", "surface_useful", "building_year", "restoration_year", "rental_net", "yield", "nb_parking"]; // offices
+            filter_categories[8]   = ["pieces", "rooms", "surface",  "building_year", "restoration_year", "nb_parking"]; // holidays
+            filter_categories[10]  = ["pieces", "rooms", "surface_useful",  "building_year", "restoration_year", "nb_parking"]; // gastronomy
+            filter_categories[11]  = ["pieces", "surface_useful",  "building_year", "restoration_year", "rental_net", "yield", "nb_parking"]; // companies
+            filter_categories[12]  = ["surface_useful",  "building_year", "restoration_year", "nb_parking"]; // parking
+            filter_categories[13]  = ["building_year", "restoration_year"]; // boatparking
+            filter_categories[14]  = ["surface", "surface_portion", "surface_useful", "building_year", "restoration_year", 
+                                     "flats", "rental_net", "yield", "nb_parking"] // building
+            filter_categories[15]  = ["pieces", "rooms", "surface", "surface_portion", "building_year", "restoration_year", "nb_parking"]; // clesmain
+            filter_categories[92]  = ["pieces", "rooms", "surface", "surface_portion", "building_year", "restoration_year", "nb_parking"]; // promotions
+            filter_categories[101] = ["pieces", "rooms", "surface", "building_year", "restoration_year"]; // mobile_home
+            filter_categories[143] = ["pieces", "rooms", "surface", "building_year", "restoration_year"]; // annexes
+            filter_categories[172] = ["surface_portion", "building_year", "restoration_year"]; // campings
+            filter_categories[177] = ["building_year", "restoration_year"]; // enseignes
+
+            // #31323 hide the filters
+            filter_categories[185] = []; // projects
+
+            function hideShowFilters() {
+                var display_filters = new Array();
+                var deal = ($("input[name='object_filter_deal']:checked").val() == 'rent' || $("input[name='object_filter_deal']").val() == 'RENT');
+                $("input[name^='object_filter_categories']:checked, #categories_multiselect option:selected").each(function() {
+                    if (!deal || $(this).val() != 12) {
+                        display_filters = $.unique(display_filters.concat(filter_categories[$(this).val()]));
+                    }
+                });
+
+                if (display_filters.length == 0) {
+                                    }
+                
+                $(".search_filter").hide();
+
+                if (display_filters.length > 0) {
+                    for (var i = 0; i < display_filters.length; i++) {
+                        if (!deal || $.inArray(display_filters[i], ["rental_net", "yield"]) == -1) {
+                            $("#search_filter_" + display_filters[i]).show();
+                        }
+                    }
+                }
+                            }
+
+            $("input[name^='object_filter_categories'], #categories_multiselect").change(function() {
+                hideShowFilters();
+
+                displayBaseSliders();
+                
+                $('#subcategories input:checkbox').each(function(){
+                    if ($(this).is(':checked')) {
+                        $(this).attr('checked', false);
+                        $(this).siblings('span').removeClass('checked');
+                    }
+                });
+
+                
+                searchObjects.submit({update_objects_by_country: 1});
+
+            });
+
+            
+            hideShowFilters();
+
+            
+            displayBaseSliders();
+                    });
+    </script>
+
+            <div class="search_type search_module" id="categories" >
+                        <div class="search_module_content">
+                <div class="list_categories"><!-- add for debug on prod - END -->
+        <!--<div id="filter_cat_multiselect">
+            <select multiple="multiple" id="categories_multiselect" name="object_filter_categories[]" class="objects_filter_data">
+                                    <option value="1" >Wohnungen (10)</option>
+                                    <option value="2" >Häuser (3)</option>
+                            </select>
+        </div>
+        <div class="list_categories" id="filter_cat_list">-->
+                            <div class="cat_filter">
+                    <input type="checkbox" name="object_filter_categories[]" class="objects_filter_data object_filter_categories" id="cat_1"  value="1" /><!-- add for debug on prod -->
+                    <!--<input type="checkbox" name="object_filter_categories[]" class="objects_filter_data object_filter_categories list_cat" id="cat_1"  value="1" /> -->
+                    <label for="cat_1">Wohnungen (10)</label>
+                </div>
+                            <div class="cat_filter">
+                    <input type="checkbox" name="object_filter_categories[]" class="objects_filter_data object_filter_categories" id="cat_2"  value="2" /><!-- add for debug on prod -->
+                    <!--<input type="checkbox" name="object_filter_categories[]" class="objects_filter_data object_filter_categories list_cat" id="cat_2"  value="2" /> -->
+                    <label for="cat_2">Häuser (3)</label>
+                </div>
+                        <input type="hidden" name="spec_cat" class="objects_filter_data hidden_objects_filter_data" value="0" />
+        </div>
+    <!-- add for debug on prod -->
+
+                </div>
+        </div>
+    </div>
+                
+                
+                
+                
+                
+                    <script language="JavaScript">
+        ready(function() {
+            if ("" == $('#object_filter_locality').val()) {
+                $('#slider_radius_containder').addClass('hide');
+                $('#location_search').addClass('radius_hidden');
+            } else {
+                //searchObjects.update();
+            }
+            $("#location_multiselect").change(function() {
+                searchObjects.submit();
+            });
+
+            $("#location_multiselect").multiselect({
+                header: false,
+                noneSelectedText: "Stadt",
+                selectedText: "# angewählt",
+                selectedList: 2,
+                click: function(event, ui) {
+                    if (ui.checked) {
+                        $('#location_multiselect option[value="' + ui.value + '"]').attr("selected", "selected");
+                    } else {
+                        $('#location_multiselect option[value="' + ui.value + '"]').removeAttr("selected");
+                    }
+                }
+            });
+        });
+    </script>
+    <div class="search_location search_module" id="location_search">
+        <h4>Ort</h4>
+                    <div id="filter_country"><script language="JavaScript">
+    ready(function() {
+        
+        $("input[name^='object_filter_country'], #countries_multiselect").change(function() {
+            searchObjects.submit();
+        });
+    });
+</script>
+
+        <input type="hidden" name="object_filter_country" class="objects_filter_data" value="187" />
+    
+</div>
+                                                <label for="object_filter_locality">Stadt</label>
+                                        <input type="text" class="input_location ajax_input ac_input objects_filter_data" id="object_filter_locality" name="object_filter_locality"  value=""/>
+                    <input type="hidden" id="object_filter_locality_id" name="object_filter_locality_id" class="objects_filter_data" value=""/>
+                    <!--hidden field with default radius filter value just for js file-->
+                    <input type="hidden" id="config_radius_filter" value="30"/>
+                    <div class="clear"></div>
+                    
+                    <div id="slider_radius_containder">
+                        <p class="value_display">Radius <span class="slider_values" id="radius_max_value"></span> km</p>
+                        <div id="radius" class="slider_box">
+                            <div class="slider_base">
+                                <div class="slider_full"></div>
+                            </div>
+                            <div class="slider_handler max"></div>
+                            <input type="hidden" value="" id="radius_max" class="position max" />
+                            <input type="hidden" value="30" id="radius_max_transformed" name="object_filter_radius" class="objects_filter_data" />
+                        </div>
+                    </div>
+                    </div>
+    <input type="hidden" id="locality_source_url" value="/de/ajax/getobjectlocality/json" />
+    <input type="hidden" id="default_radius" value="5" />
+    <input type="hidden" id="custom_countries" value="0" />
+
+                <div class="search_price search_module">
+        <h4>Preis</h4>
+    <div class="search_module_content">
+        <p class="value_display">Von <span class="slider_values" id="price_min_value"></span> bis <span class="slider_values" id="price_max_value"></span> CHF</p>
+        <div id="price_sale" class="slider_box">
+            <div class="slider_base">
+                <div class="slider_full"></div>
+            </div>
+            <div class="slider_handler min"></div>
+            <div class="slider_handler max"></div>
+            <input type="hidden" value="" id="price_min" class="position min" />
+            <input type="hidden" value="0" id="price_min_transformed" name="object_filter_price_inf" class="objects_filter_data" />
+            <input type="hidden" value="" id="price_max" class="position max" />
+            <input type="hidden" value="999999999" id="price_max_transformed" name="object_filter_price_sup" class="objects_filter_data" />
+        </div>
+    </div>
+</div>
+                    <div id="search_filter_pieces" class="search_pieces search_module search_filter">
+        <h4>Zimmer</h4>
+        <div class="search_module_content">
+            <p class="value_display">Von <span class="slider_values" id="pieces_min_value"></span> bis <span class="slider_values" id="pieces_max_value"></span> Zimmer</p>
+            <div id="pieces" class="slider_box">
+                <div class="slider_base">
+                    <div class="slider_full"></div>
+                </div>
+                <div class="slider_handler min"></div>
+                <div class="slider_handler max"></div>
+                <input type="hidden" value="" id="pieces_min" class="position min" />
+                <input type="hidden" value="0" id="pieces_min_transformed" name="object_filter_rooms_inf" class="objects_filter_data" />
+                <input type="hidden" value="" id="pieces_max" class="position max" />
+                <input type="hidden" value="999999999" id="pieces_max_transformed" name="object_filter_rooms_sup" class="objects_filter_data" />
+            </div>
+        </div>
+    </div>
+
+                    <div id="search_filter_rooms" class="search_rooms search_module search_filter">
+        <h4>Schlafzimmer</h4>
+        <div class="search_module_content">
+            <p class="value_display">Von <span class="slider_values" id="rooms_min_value"></span> bis <span class="slider_values" id="rooms_max_value"></span> Zimmer</p>
+            <div id="rooms" class="slider_box">
+                <div class="slider_base">
+                    <div class="slider_full"></div>
+                </div>
+                <div class="slider_handler min"></div>
+                <div class="slider_handler max"></div>
+                <input type="hidden" value="" id="rooms_min" class="position min" />
+                <input type="hidden" value="0" id="rooms_min_transformed" name="object_filter_bedrooms_inf" class="objects_filter_data" />
+                <input type="hidden" value="" id="rooms_max" class="position max" />
+                <input type="hidden" value="999999999" id="rooms_max_transformed" name="object_filter_bedrooms_sup" class="objects_filter_data" />
+            </div>
+        </div>
+    </div>
+
+                    <div id="search_filter_surface" class="search_surface search_module search_filter">
+        <h4>Wohnfläche</h4>
+        <div class="search_module_content">
+            <p class="value_display">Von <span class="slider_values" id="surface_min_value"></span> bis <span class="slider_values" id="surface_max_value"></span> m&sup2;</p>
+            <div id="surface" class="slider_box">
+                <div class="slider_base">
+                    <div class="slider_full"></div>
+                </div>
+                <div class="slider_handler min"></div>
+                <div class="slider_handler max"></div>
+                <input type="hidden" value="" id="surface_min" class="position min" />
+                <input type="hidden" value="0" id="surface_min_transformed" name="object_filter_living_surface_inf" class="objects_filter_data" />
+                <input type="hidden" value="" id="surface_max" class="position max" />
+                <input type="hidden" value="999999999" id="surface_max_transformed" name="object_filter_living_surface_sup" class="objects_filter_data" />
+            </div>
+        </div>
+    </div>
+
+                    <div id="search_filter_surface_portion" class="search_surface_portion search_module search_filter">
+        <h4>Grundstücksfläche</h4>
+        <div class="search_module_content">
+            <p class="value_display">Von <span class="slider_values" id="surface_portion_min_value"></span> bis <span class="slider_values" id="surface_portion_max_value"></span> m&sup2;</p>
+            <div id="surface_portion" class="slider_box">
+                <div class="slider_base">
+                    <div class="slider_full"></div>
+                </div>
+                <div class="slider_handler min"></div>
+                <div class="slider_handler max"></div>
+                <input type="hidden" value="" id="surface_portion_min" class="position min" />
+                <input type="hidden" value="0" id="surface_portion_min_transformed" name="object_filter_ground_surface_inf" class="objects_filter_data" />
+                <input type="hidden" value="" id="surface_portion_max" class="position max" />
+                <input type="hidden" value="999999999" id="surface_portion_max_transformed" name="object_filter_ground_surface_sup" class="objects_filter_data" />
+            </div>
+        </div>
+    </div>
+
+                    <div id="search_filter_surface_useful" class="search_surface_useful search_module search_filter">
+        <h4>Nutzfläche</h4>
+        <div class="search_module_content">
+            <p class="value_display">Von <span class="slider_values" id="surface_useful_min_value"></span> bis <span class="slider_values" id="surface_useful_max_value"></span> m&sup2;</p>
+            <div id="surface_useful" class="slider_box">
+                <div class="slider_base">
+                    <div class="slider_full"></div>
+                </div>
+                <div class="slider_handler min"></div>
+                <div class="slider_handler max"></div>
+                <input type="hidden" value="" id="surface_useful_min" class="position min" />
+                <input type="hidden" value="0" id="surface_useful_min_transformed" name="object_filter_surface_useful_inf" class="objects_filter_data" />
+                <input type="hidden" value="" id="surface_useful_max" class="position max" />
+                <input type="hidden" value="999999999" id="surface_useful_max_transformed" name="object_filter_surface_useful_sup" class="objects_filter_data" />
+            </div>
+        </div>
+    </div>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                <script language="JavaScript">
+    ready(function() {
+        $("input[name^='object_filter_foreign']").change(function() {
+            searchObjects.submit();
+        });
+
+        $("input[name^='object_filter_second_home']").change(function() {
+            searchObjects.submit();
+        });
+    });
+</script>
+
+                
+<script language="JavaScript">
+    ready(function() {
+        $("input[name^='object_filter_object_types']").change(function() {
+            searchObjects.submit();
+        });
+    });
+</script>
+
+                                <div class="clear"></div>
+
+            </div>
+
+                   
+
+        </div>
+    </div>    </div>
+        
+    <div id="search_results">
+        
+
+<script type="text/javascript">
+    ready(function() {
+        $("a[id^='top_goto_page_'], a[id^='bottom_goto_page_']").click(function () {
+            $($(this).attr('id').split(/\s+/)).each(function() {
+                var page = this.replace('top_goto_page_', '').replace('bottom_goto_page_', '');
+                searchObjects.page(page);
+                                    if (this.indexOf("bottom") > -1) {
+                        $('html, body').stop(true, true).animate({scrollTop:$('#object_container').offset().top}, 500);
+                    }
+                            });
+            if ($(this).attr('id').indexOf("top") > -1 || $(this).attr('id').indexOf("bottom") > -1) {
+                return false;
+            }
+        });
+    });
+</script>
+    <input type="hidden" id="search_id" value="dc86f473541c4f63b9f3fe0ff4780e69" />
+        
+    
+    <div id="results_top" class="box ">
+    <div class="box_content">
+        <h4 id="nbr_results"><span class="nbr_results_number">13</span> Resultate</h4>
+        
+        <script language="JavaScript">
+    ready(function() {
+                    $('.sorting').click(function () {
+                var sort_field = $(this).attr('id').replace('sorting_by_', '');
+                var sort_order = 'DESC';
+                if ($(this).hasClass('selected') && $(this).hasClass('order_DESC')) {
+                    sort_order = 'ASC';
+                }
+                $('#sort_field').val(sort_field);
+                $('#sort_order').val(sort_order);
+                searchObjects.sort();
+            });
+            });
+</script>
+
+    <div id="sorting_select">
+        <span class="sorting sorting_title">Sortierung:</span>
+                    <a class="sorting " id="sorting_by_price">Preis <span class="arrow arrow_down">&#x25BC;</span><span class="arrow arrow_up">&#x25B2;</span></a>
+                    <a class="sorting " id="sorting_by_pieces">Zimmer <span class="arrow arrow_down">&#x25BC;</span><span class="arrow arrow_up">&#x25B2;</span></a>
+                    <a class="sorting " id="sorting_by_surface_living">Fläche <span class="arrow arrow_down">&#x25BC;</span><span class="arrow arrow_up">&#x25B2;</span></a>
+            </div>
+        
+        <div class="clear"></div>
+    </div>
+</div>
+        
+    <div class="clear"></div>
+
+    <div id="list_results">
+        <a href="/de/objects/detail/5065568?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>Freistehendes EFH mit idyllischem  Garten und hoher Privatsphäre</h2>
+            <span class="object_price title_right">CHF 995'000.-</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/bffc6/480x270/s/1075/pictures/objects/1075_66586ee2744668.70883382.jpg" alt="Freistehendes EFH mit idyllischem  Garten und hoher Privatsphäre" title="" class="pictures"/>        </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3123 Belp,                    </span>
+                                                    <span>
+                            Riedlisacker 272                        </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#5065568</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">5.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">145 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Grundstücksfläche</div>
+                    <div class="infos_value">1008 m²</div>
+                    <div class="clear"></div>
+                </div>
+                                <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">1955</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/5005204?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>4.5- Zimmer Wohnung zentral in Kehrsatz</h2>
+            <span class="object_price title_right">CHF 585'000.-</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/9f408/480x270/s/1075/pictures/objects/1075_664df58aa38237.58743594.jpg" alt="4.5- Zimmer Wohnung zentral in Kehrsatz" title="" class="pictures"/>        </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3122 Kehrsatz,                    </span>
+                                                    <span>
+                            Bernstrasse 69                        </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#5005204</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">4.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">97 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">1973</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4999828?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>5.5- Zimmer Familienoase an zentraler Lage in Toffen</h2>
+            <span class="object_price title_right">CHF 835'000.-</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/0fa51/480x270/s/1075/pictures/objects/1075_664361f0c82394.68328491.jpg" alt="5.5- Zimmer Familienoase an zentraler Lage in Toffen" title="" class="pictures"/>        </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3125 Toffen,                    </span>
+                                                    <span>
+                            Niesenweg 31                        </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4999828</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">5.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">106 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Grundstücksfläche</div>
+                    <div class="infos_value">635 m²</div>
+                    <div class="clear"></div>
+                </div>
+                                <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">1971</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4989170?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>Moderne 4.5- Zimmer MINERGIE Wohnung zentral in Riggisberg</h2>
+            <span class="object_price title_right">CHF 745'000.-</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/d0e2b/480x270/s/1075/pictures/objects/1075_6631f781d84018.13464527.jpg" alt="Moderne 4.5- Zimmer MINERGIE Wohnung zentral in Riggisberg" title="" class="pictures"/>        </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3132 Riggisberg,                    </span>
+                                                    <span>
+                            Kirchenrainweg 2                        </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4989170</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">4.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">94 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">2020</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4989168?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>Zentrale 3.5- Zimmer Wohnung mit schönem Gartensitzplatz</h2>
+            <span class="object_price title_right">CHF 495'000.-</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/f80df/480x270/s/1075/pictures/objects/1075_663895b8289d00.63871593.jpg" alt="Zentrale 3.5- Zimmer Wohnung mit schönem Gartensitzplatz" title="" class="pictures"/>        </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3150 Schwarzenburg,                    </span>
+                                                    <span>
+                            Talweg 6                        </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4989168</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">3.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">92 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">2000</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4989166?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>Vorteilhafte 3.5- Zimmer Wohnung mit Balkon</h2>
+            <span class="object_price title_right">CHF 395'000.-</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/601dd/480x270/s/1075/pictures/objects/1075_6655c7f12cdab2.54679004.jpg" alt="Vorteilhafte 3.5- Zimmer Wohnung mit Balkon" title="" class="pictures"/>        </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3155 Helgisried-Rohrbach,                    </span>
+                                                    <span>
+                            Eisselmatt 35                        </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4989166</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">3.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">75 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">1990</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4958521?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>-RESERVIERT- Freistehende Wohnoase an paradiesischer Lage in Kirchdorf</h2>
+            <span class="object_price title_right">Preis auf Anfrage</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/bb56c/480x270/s/1075/pictures/objects/1075_65faac4957e677.81229243.jpg" alt="-RESERVIERT- Freistehende Wohnoase an paradiesischer Lage in Kirchdorf" title="" class="pictures"/>                <div class="slogan slogan_15">Reserviert</div>
+                    </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3116 Kirchdorf BE                    </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4958521</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">4.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">168 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Grundstücksfläche</div>
+                    <div class="infos_value">1701 m²</div>
+                    <div class="clear"></div>
+                </div>
+                                <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">1977</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4942271?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>- RESERVIERT- Traumhafte 4.5- Zimmer Wohnung zentral in Wabern</h2>
+            <span class="object_price title_right">Preis auf Anfrage</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/fd2f2/480x270/s/1075/pictures/objects/1075_65dda41c931243.59495769.jpg" alt="- RESERVIERT- Traumhafte 4.5- Zimmer Wohnung zentral in Wabern" title="" class="pictures"/>                <div class="slogan slogan_15">Reserviert</div>
+                    </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3084 Wabern,                    </span>
+                                                    <span>
+                            Bachtelenweg 19                        </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4942271</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">4.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">110 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">2015</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4938067?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>Charmante 4.5- Zimmer Wohnung an aussichtsreicher Lage</h2>
+            <span class="object_price title_right"></span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/d2d9a/480x270/s/1075/pictures/objects/1075_65d464ce8489f7.08951761.jpg" alt="Charmante 4.5- Zimmer Wohnung an aussichtsreicher Lage" title="" class="pictures"/>                <div class="slogan slogan_2">Verkauft</div>
+                    </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3125 Toffen                    </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4938067</div>
+                <div class="clear"></div>
+            </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4934311?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2> 4.5- Zimmer Wohnung mit wunderschöner Weitsicht</h2>
+            <span class="object_price title_right"></span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/cd8b4/480x270/s/1075/pictures/objects/1075_642a7a74457292.67149681.jpg" alt="4.5- Zimmer Wohnung mit wunderschöner Weitsicht" title="" class="pictures"/>                <div class="slogan slogan_2">Verkauft</div>
+                    </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3123 Belp                    </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4934311</div>
+                <div class="clear"></div>
+            </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4922679?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>Stilvolle und gepflegte 3.5- Zimmer Wohnung</h2>
+            <span class="object_price title_right"></span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/d242f/480x270/s/1075/pictures/objects/1075_65cb783a7a38e3.38348374.jpg" alt="Stilvolle und gepflegte 3.5- Zimmer Wohnung" title="" class="pictures"/>                <div class="slogan slogan_2">Verkauft</div>
+                    </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3007 Bern                    </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4922679</div>
+                <div class="clear"></div>
+            </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4915095?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>Attraktive 3.5- Zimmer Wohnung mit Balkon und Sitzplatz</h2>
+            <span class="object_price title_right">CHF 695'000.-</span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/5979c/480x270/s/1075/pictures/objects/1075_65ba39eb46bcb9.67338448.jpg" alt="Attraktive 3.5- Zimmer Wohnung mit Balkon und Sitzplatz" title="" class="pictures"/>        </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3123 Belp,                    </span>
+                                                    <span>
+                            Bürglenweg 4                        </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4915095</div>
+                <div class="clear"></div>
+            </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Zimmer</div>
+                    <div class="infos_value">3.5</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Fläche</div>
+                    <div class="infos_value">105 m²</div>
+                    <div class="clear"></div>
+                </div>
+                            <div class="infos_row">
+                    <div class="infos_label">Baujahr</div>
+                    <div class="infos_value">2000</div>
+                    <div class="clear"></div>
+                </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    <a href="/de/objects/detail/4738393?search_id=dc86f473541c4f63b9f3fe0ff4780e69"  class="box box_objects">
+                <div class="title title2">
+            <h2>Hochwertig sanierte 4.5- Zimmer Wohnung in der Stadt Bern</h2>
+            <span class="object_price title_right"></span>
+            <div class="clear"></div>
+        </div>
+
+        <div class="object_pic">
+            <img src="https://www.immomigimg.ch/i/38742/480x270/s/1075/pictures/objects/1075_654c9c0c516a54.59398025.jpg" alt="Hochwertig sanierte 4.5- Zimmer Wohnung in der Stadt Bern" title="" class="pictures"/>                <div class="slogan slogan_2">Verkauft</div>
+                    </div>
+        <div class="object_infos">
+            <div class="object_infos_top">
+                <div class="object_adress">
+                                            <span>
+                        CH-3012 Bern                    </span>
+                                        </div>
+
+                
+                <div class="clear"></div>
+            </div>
+            <div class="infos_row">
+                <div class="infos_label">Referenz</div>
+                <div class="infos_value">#4738393</div>
+                <div class="clear"></div>
+            </div>
+                        <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+
+            </a>
+    
+    <div class="clear"></div>
+</div>
+    <div class="clear"></div>
+
+        
+    
+    
+    
+    <div class="clear"></div>    </div>
+    
+    <div id="loading">
+    	<div id="loading_box">
+	    	<div id="loading_icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="512" height="512" viewBox="0 0 512 512">
+  <g>
+    <path d="m 303.99882,62.985758 c 1.88153,32.975235 -35.80263,58.895192 -65.93476,45.267732 -32.20256,-11.316813 -40.60752,-58.64752 -14.0846,-80.239974 24.6928,-24.3926037 71.39705,-10.067185 78.52153,23.755596 0.93873,3.662434 1.44519,7.435975 1.49783,11.216646 z" style="fill-opacity:0.202"/>
+    <path d="m 425.67467,154.29171 c -22.34232,24.32574 -67.19198,15.3549 -78.41205,-15.75422 -14.32012,-30.98427 13.77414,-69.991741 47.74286,-66.011647 34.70211,0.716277 56.96846,44.198997 37.67131,72.876067 -1.97301,3.22522 -4.3269,6.2178 -7.00212,8.8898 z" style="fill-opacity:0.316"/>
+    <path d="m 448.35837,304.06427 c -32.99154,1.59516 -58.5842,-36.31406 -44.69507,-66.32781 11.59646,-32.10423 59.00011,-40.09814 80.3622,-13.38773 24.17813,24.90461 9.44712,71.4844 -24.43749,78.31513 -3.67058,0.90692 -7.44852,1.38062 -11.22964,1.40041 z" style="fill-opacity:0.43"/>
+    <path d="m 357.68265,425.67709 c -24.27909,-22.39481 -15.2126,-67.22696 15.92146,-78.38129 31.01578,-14.25475 69.96489,13.9234 65.91245,47.88484 -0.79007,34.7018 -44.32163,56.87649 -72.95868,37.51771 -3.22114,-1.97993 -6.20882,-4.34026 -8.87523,-7.02126 z" style="fill-opacity:0.544"/>
+    <path d="m 208.05479,448.39989 c -1.53879,-32.99302 36.41268,-58.52001 66.4016,-44.58018 32.08324,11.65082 39.99594,59.06633 13.25007,80.38203 -24.94494,24.13472 -71.49784,9.32476 -78.27048,-24.57024 -0.90062,-3.672 -1.36785,-7.4506 -1.38119,-11.23161 z" style="fill-opacity:0.658"/>
+    <path d="m 85.569599,358.61789 c 22.004451,-24.63125 66.973001,-16.27989 78.620891,14.67116 14.74587,30.78345 -12.80742,70.17418 -46.82738,66.66297 -34.708256,-0.23763 -57.571882,-43.4086 -38.672286,-72.34872 1.928319,-3.25209 4.240686,-6.2768 6.878775,-8.98541 z" style="fill-opacity:0.772"/>
+    <path d="m 63.680016,208.05138 c 32.986003,-1.68535 58.681444,36.15252 44.874914,66.2032 -11.508238,32.13481 -58.888335,40.2581 -80.322729,13.60707 -24.2453955,-24.83758 -9.642324,-71.45602 24.222403,-78.3792 3.667971,-0.91692 7.444476,-1.40094 11.225412,-1.43107 z" style="fill-opacity:0.886"/>
+    <path d="m 153.90107,86.138704 c 24.43771,22.219746 15.69242,67.113876 -15.35988,78.490166 -30.91186,14.47565 -70.06001,-13.42215 -66.250711,-47.41041 0.541841,-34.705233 43.912041,-57.189844 72.685711,-38.037101 3.2351,1.956771 6.23947,4.295587 8.92488,6.957345 z"/>
+    <animateTransform attributeName="transform" attributeType="XML" dur="1s" repeatCount="indefinite" calcMode="discrete" values="0 256 256; 45 256 256; 90 256 256; 135 256 256; 180 256 256; 225 256 256; 270 256 256; 315 256 256" type="rotate"/>
+  </g>
+</svg></div>
+    		<div id="loading_text">Laden</div>
+	    </div>
+    </div>
+    <div class="clear"></div>
+</div>                <div class="clear"></div>
+            </div><!-- End center content -->
+        </div><!-- End container -->
+        <footer id="footer" role="contentinfo">
+                            <div id="footer_copyright">
+                    <div class="center_content">
+                        Software Immomig<sup>®</sup> 2004-2024, IMMOMIG AG |  Alle Rechte vorbehalten | Unsere Inserate auf <a href="https://www.dreamo.ch/de/publisher/jenni-immobilien-treuhand-gmbh/8418cacc" onclick="window.open('https://www.dreamo.ch/de/publisher/jenni-immobilien-treuhand-gmbh/8418cacc'); return false;">dreamo.ch</a>                        <div class="clear"></div>
+                    </div>
+                </div>
+                    </footer>
+    </div><!-- End global -->
+    </body>
+</html>
