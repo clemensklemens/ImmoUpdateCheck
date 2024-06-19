@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
@@ -20,6 +21,37 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImmoUpdateCheck\ImmoUpdateCheck.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <None Update="TestFiles\Different11.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+	<None Update="TestFiles\Different12.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Same11.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Same12.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Same21.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Same22.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Same31.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="TestFiles\Same32.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
