@@ -14,17 +14,23 @@ namespace ImmoUpdateCheck
         public static bool Compare(HtmlDocument site1, HtmlDocument site2)
         {
             bool different = false;
-            if (NormalizeContent(RemoveScripTags(site1).ParsedText) != NormalizeContent(RemoveScripTags(site2).ParsedText))
+            if (NormalizeContent(RemoveUnwantedTags(site1).ParsedText) != NormalizeContent(RemoveUnwantedTags(site2).ParsedText))
             {
                 different = true;
             }
             return different;
         }
 
-        private static HtmlDocument RemoveScripTags(HtmlDocument document)
+        private static HtmlDocument RemoveUnwantedTags(HtmlDocument document)
         {
             document.DocumentNode.Descendants()
                     .Where(n => n.Name == "script" || n.Name == "style")
+                    .ToList()
+                    .ForEach(n => n.Remove());
+
+            // Remove elements by class name, e.g., "jet"
+            document.DocumentNode.Descendants()
+                    .Where(n => n.GetAttributeValue("class", "").Contains("jet"))
                     .ToList()
                     .ForEach(n => n.Remove());
             return document;
