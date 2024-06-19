@@ -57,9 +57,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='immomakler-bootstrap3-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/bootstrap/css/immomakler-bootstrap.min.css?ver=5.47.1' media='all' />
-<link rel='stylesheet' id='immomakler-bootstrap-select-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/bootstrap-select-1-13-18/css/bootstrap-select.min.css?ver=5.47.1' media='all' />
-<link rel='stylesheet' id='immomakler-nouislider-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/nouislider/jquery.nouislider.css?ver=5.47.1' media='all' />
+<link rel='stylesheet' id='immomakler-bootstrap3-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/bootstrap/css/immomakler-bootstrap.min.css?ver=5.48' media='all' />
+<link rel='stylesheet' id='immomakler-bootstrap-select-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/bootstrap-select-1-13-18/css/bootstrap-select.min.css?ver=5.48' media='all' />
+<link rel='stylesheet' id='immomakler-nouislider-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/nouislider/jquery.nouislider.css?ver=5.48' media='all' />
 <link rel='stylesheet' id='leaflet-style-css' href='https://www.immowyss.ch/wp-content/plugins/onoffice-for-wp-websites/third_party/leaflet/leaflet.css?ver=6.5.4' media='all' />
 <link rel='stylesheet' id='onoffice-default-css' href='https://www.immowyss.ch/wp-content/plugins/onoffice-for-wp-websites/css/onoffice-default.css?ver=6.5.4' media='' />
 <link rel='stylesheet' id='onoffice-multiselect-css' href='https://www.immowyss.ch/wp-content/plugins/onoffice-for-wp-websites/css/onoffice-multiselect.css?ver=6.5.4' media='' />
@@ -89,9 +89,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='skb-cife-elegant_icon-css' href='https://www.immowyss.ch/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/elegant.css?ver=1.0.8' media='all' />
 <link rel='stylesheet' id='skb-cife-linearicons_icon-css' href='https://www.immowyss.ch/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/linearicons.css?ver=1.0.8' media='all' />
 <link rel='stylesheet' id='skb-cife-themify_icon-css' href='https://www.immowyss.ch/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/themify.css?ver=1.0.8' media='all' />
-<link rel='stylesheet' id='immomakler-lightgallery-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/css/lightgallery-bundle.min.css?ver=5.47.1' media='all' />
-<link rel='stylesheet' id='immomakler-plus-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/css/immomakler-plus.css?ver=5.47.1.1717143103' media='all' />
-<link rel='stylesheet' id='immomakler-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/css/immomakler.css?ver=5.47.1.1717143103' media='all' />
+<link rel='stylesheet' id='immomakler-lightgallery-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/css/lightgallery-bundle.min.css?ver=5.48' media='all' />
+<link rel='stylesheet' id='immomakler-plus-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/css/immomakler-plus.css?ver=5.48.1718790499' media='all' />
+<link rel='stylesheet' id='immomakler-css' href='https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/css/immomakler.css?ver=5.48.1718790499' media='all' />
 <style id='immomakler-inline-css'>
 .immomakler-archive .immomakler-boxed .property-container {border-color: #cccccc;}.immomakler-archive .immomakler-boxed .property-container {background-color: #ffffff;}@media (min-width: 768px) {.immomakler-archive .immomakler-boxed .property-container .thumbnail img {aspect-ratio: 1.5;}}.immomakler-page .property-gallery-static img {aspect-ratio: 1.3422818791946;height: auto;}.galleria-theme-classic .galleria-thumbnails .galleria-image,.galleria-theme-classic .galleria-thumbnails-container,.galleria-theme-classic .galleria-thumb-nav-right,.galleria-theme-classic .galleria-thumb-nav-left {height: 100px;}
 </style>
@@ -100,22 +100,23 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='elementor-icons-skb_cife-elegant-icon-css' href='https://www.immowyss.ch/wp-content/plugins/skyboot-custom-icons-for-elementor/assets/css/elegant.css?ver=1.0.8' media='all' />
 <script src="https://www.immowyss.ch/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://www.immowyss.ch/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/bootstrap/js/bootstrap.min.js?ver=5.47.1" id="immomakler-bootstrap3-js"></script>
-<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/bootstrap-select-1-13-18/js/bootstrap-select.min.js?ver=5.47.1" id="immomakler-bootstrap-select-js"></script>
-<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/nouislider/jquery.nouislider.min.js?ver=5.47.1" id="immomakler-nouislider-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/bootstrap/js/bootstrap.min.js?ver=5.48" id="immomakler-bootstrap3-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/bootstrap-select-1-13-18/js/bootstrap-select.min.js?ver=5.48" id="immomakler-bootstrap-select-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/nouislider/jquery.nouislider.min.js?ver=5.48" id="immomakler-nouislider-js"></script>
 <script src="https://www.immowyss.ch/wp-content/plugins/onoffice-for-wp-websites/third_party/leaflet/leaflet.js?ver=6.5.4" id="leaflet-script-js"></script>
 <script id="borlabs-cookie-prioritize-js-extra">
 var borlabsCookiePrioritized = {"domain":"www.immowyss.ch","path":"\/","version":"1","bots":"1","optInJS":{"marketing":{"google-analytics":"PCEtLSBHbG9iYWwgc2l0ZSB0YWcgKGd0YWcuanMpIC0gR29vZ2xlIEFuYWx5dGljcyAtLT4NCjxzY3JpcHQgYXN5bmMgc3JjPSJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPUctWFE2WVdMQzcwRyI+PC9zY3JpcHQ+DQo8c2NyaXB0Pg0Kd2luZG93LmRhdGFMYXllciA9IHdpbmRvdy5kYXRhTGF5ZXIgfHwgW107DQpmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKTt9DQpndGFnKCJqcyIsIG5ldyBEYXRlKCkpOw0KDQpndGFnKCJjb25maWciLCAiRy1YUTZZV0xDNzBHIiwgeyAiYW5vbnltaXplX2lwIjogdHJ1ZSB9KTsNCjwvc2NyaXB0Pg=="}}};
 </script>
 <script src="https://www.immowyss.ch/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie-prioritize.min.js?ver=2.2.67" id="borlabs-cookie-prioritize-js"></script>
-<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/js/immomakler-consent.min.js?ver=5.47.1" id="immomakler-consent-js"></script>
-<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/lightgallery.min.js?ver=5.47.1" id="lightgallery-js"></script>
-<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/plugins/thumbnail/lg-thumbnail.min.js?ver=5.47.1" id="lightgallery-thumbnail-js"></script>
-<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/plugins/zoom/lg-zoom.min.js?ver=5.47.1" id="lightgallery-zoom-js"></script>
-<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/plugins/fullscreen/lg-fullscreen.min.js?ver=5.47.1" id="lightgallery-fullscreen-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/js/immomakler-consent.min.js?ver=5.48" id="immomakler-consent-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/lightgallery.min.js?ver=5.48" id="lightgallery-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/plugins/thumbnail/lg-thumbnail.min.js?ver=5.48" id="lightgallery-thumbnail-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/plugins/zoom/lg-zoom.min.js?ver=5.48" id="lightgallery-zoom-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/skins/bootstrap3/vendors/lightgallery-2-7-2/plugins/fullscreen/lg-fullscreen.min.js?ver=5.48" id="lightgallery-fullscreen-js"></script>
+<script src="https://www.immowyss.ch/wp-content/plugins/immomakler/classes/plus/js/immomakler-shortcodes-loadmore.js?ver=5.48" id="immomakler-shortcodes-loadmore-js"></script>
 <link rel="https://api.w.org/" href="https://www.immowyss.ch/wp-json/" /><link rel="alternate" type="application/json" href="https://www.immowyss.ch/wp-json/wp/v2/pages/18886" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.immowyss.ch/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.5.4" />
-<meta name="generator" content="WP-ImmoMakler® Immobilien-Plugin für WordPress (WP-ImmoMakler 5 PLUS (50), Version 5.47.1) https://www.wp-immomakler.de/" />
+<meta name="generator" content="WP-ImmoMakler® Immobilien-Plugin für WordPress (WP-ImmoMakler 5 PLUS (50), Version 5.48) https://www.wp-immomakler.de/" />
 <link rel='shortlink' href='https://www.immowyss.ch/?p=18886' />
 <link rel="alternate" type="application/json+oembed" href="https://www.immowyss.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.immowyss.ch%2Fhaus-kaufen-thun%2F" />
 <link rel="alternate" type="text/xml+oembed" href="https://www.immowyss.ch/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.immowyss.ch%2Fhaus-kaufen-thun%2F&#038;format=xml" />
@@ -389,7 +390,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</section>
 				<div class="elementor-element elementor-element-31b4fc5 elementor-widget elementor-widget-jet-listing-grid" data-id="31b4fc5" data-element_type="widget" data-settings="{&quot;columns&quot;:&quot;2&quot;,&quot;columns_mobile_extra&quot;:&quot;1&quot;}" data-widget_type="jet-listing-grid.default">
 				<div class="elementor-widget-container">
-			<div class="jet-listing-grid jet-listing"><div class="jet-listing-grid__items grid-col-desk-2 grid-col-tablet-2 grid-col-mobile-2 jet-listing-grid--1764" data-queried-id="18886|WP_Post" data-nav="{&quot;enabled&quot;:false,&quot;type&quot;:null,&quot;more_el&quot;:null,&quot;query&quot;:[],&quot;widget_settings&quot;:{&quot;lisitng_id&quot;:1764,&quot;posts_num&quot;:200,&quot;columns&quot;:2,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:2,&quot;is_archive_template&quot;:&quot;&quot;,&quot;post_status&quot;:[&quot;publish&quot;],&quot;use_random_posts_num&quot;:&quot;&quot;,&quot;max_posts_num&quot;:9,&quot;not_found_message&quot;:&quot;Wir konnten leider keine passende Immobilie finden.&quot;,&quot;is_masonry&quot;:false,&quot;equal_columns_height&quot;:&quot;&quot;,&quot;use_load_more&quot;:&quot;&quot;,&quot;load_more_id&quot;:&quot;&quot;,&quot;load_more_type&quot;:&quot;click&quot;,&quot;load_more_offset&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;use_custom_post_types&quot;:&quot;&quot;,&quot;custom_post_types&quot;:[],&quot;hide_widget_if&quot;:&quot;&quot;,&quot;carousel_enabled&quot;:&quot;&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;arrows&quot;:&quot;true&quot;,&quot;arrow_icon&quot;:&quot;fa fa-angle-left&quot;,&quot;dots&quot;:&quot;&quot;,&quot;autoplay&quot;:&quot;true&quot;,&quot;pause_on_hover&quot;:&quot;true&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;true&quot;,&quot;center_mode&quot;:&quot;&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500,&quot;inject_alternative_items&quot;:&quot;&quot;,&quot;injection_items&quot;:[],&quot;scroll_slider_enabled&quot;:&quot;&quot;,&quot;scroll_slider_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;custom_query&quot;:false,&quot;custom_query_id&quot;:&quot;1&quot;,&quot;_element_id&quot;:&quot;&quot;}}" data-page="1" data-pages="1" data-listing-source="posts" data-listing-id="1764" data-query-id=""><div class="jet-listing-grid__item jet-listing-dynamic-post-44301" data-post-id="44301" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-villa-in-huenibach-kaufen-ee864/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+			<div class="jet-listing-grid jet-listing"><div class="jet-listing-grid__items grid-col-desk-2 grid-col-tablet-2 grid-col-mobile-2 jet-listing-grid--1764" data-queried-id="18886|WP_Post" data-nav="{&quot;enabled&quot;:false,&quot;type&quot;:null,&quot;more_el&quot;:null,&quot;query&quot;:[],&quot;widget_settings&quot;:{&quot;lisitng_id&quot;:1764,&quot;posts_num&quot;:200,&quot;columns&quot;:2,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:2,&quot;is_archive_template&quot;:&quot;&quot;,&quot;post_status&quot;:[&quot;publish&quot;],&quot;use_random_posts_num&quot;:&quot;&quot;,&quot;max_posts_num&quot;:9,&quot;not_found_message&quot;:&quot;Wir konnten leider keine passende Immobilie finden.&quot;,&quot;is_masonry&quot;:false,&quot;equal_columns_height&quot;:&quot;&quot;,&quot;use_load_more&quot;:&quot;&quot;,&quot;load_more_id&quot;:&quot;&quot;,&quot;load_more_type&quot;:&quot;click&quot;,&quot;load_more_offset&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;use_custom_post_types&quot;:&quot;&quot;,&quot;custom_post_types&quot;:[],&quot;hide_widget_if&quot;:&quot;&quot;,&quot;carousel_enabled&quot;:&quot;&quot;,&quot;slides_to_scroll&quot;:&quot;1&quot;,&quot;arrows&quot;:&quot;true&quot;,&quot;arrow_icon&quot;:&quot;fa fa-angle-left&quot;,&quot;dots&quot;:&quot;&quot;,&quot;autoplay&quot;:&quot;true&quot;,&quot;pause_on_hover&quot;:&quot;true&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;true&quot;,&quot;center_mode&quot;:&quot;&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500,&quot;inject_alternative_items&quot;:&quot;&quot;,&quot;injection_items&quot;:[],&quot;scroll_slider_enabled&quot;:&quot;&quot;,&quot;scroll_slider_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;custom_query&quot;:false,&quot;custom_query_id&quot;:&quot;1&quot;,&quot;_element_id&quot;:&quot;&quot;}}" data-page="1" data-pages="1" data-listing-source="posts" data-listing-id="1764" data-query-id=""><div class="jet-listing-grid__item jet-listing-dynamic-post-44892" data-post-id="44892" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-villa-in-huenibach-kaufen-ee864/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -425,7 +426,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 			<link rel="stylesheet" href="https://www.immowyss.ch/wp-content/uploads/elementor/css/custom-pro-widget-call-to-action.min.css?ver=1718352705">		<div class="elementor-cta">
 					<div class="elementor-cta__bg-wrapper">
-				<div class="elementor-cta__bg elementor-bg" style="background-image: url(https://www.immowyss.ch/wp-content/uploads/immomakler/attachments/a647ae80e203839e0cc3048d54ee4938/8e23f6d9-0b97-4943-b6c8-94065ac0558c.jpg);" role="img" aria-label="Villa am Thunersee"></div>
+				<div class="elementor-cta__bg elementor-bg" style="background-image: url(https://www.immowyss.ch/wp-content/uploads/immomakler/attachments/a647ae80e203839e0cc3048d54ee4938/a5fcddd7-0278-4f6f-994f-b60dedd9f20a.jpg);" role="img" aria-label="Villa am Thunersee"></div>
 				<div class="elementor-cta__bg-overlay"></div>
 			</div>
 							<div class="elementor-cta__content">
@@ -496,7 +497,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-villa-in-huenibach-kaufen-ee864/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44104" data-post-id="44104" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-sigriswil-kaufen-xk442/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-villa-in-huenibach-kaufen-ee864/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-45008" data-post-id="45008" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-sigriswil-kaufen-xk442/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -609,7 +610,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-sigriswil-kaufen-xk442/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-43930" data-post-id="43930" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-doppelhaushaelfte-in-oberstocken-kaufen-rg767/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-sigriswil-kaufen-xk442/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44834" data-post-id="44834" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-doppelhaushaelfte-in-oberstocken-kaufen-rg767/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -722,7 +723,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-doppelhaushaelfte-in-oberstocken-kaufen-rg767/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44228" data-post-id="44228" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-wimmis-kaufen-lo586/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-doppelhaushaelfte-in-oberstocken-kaufen-rg767/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-45133" data-post-id="45133" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-wimmis-kaufen-lo586/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -835,7 +836,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-wimmis-kaufen-lo586/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-43953" data-post-id="43953" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-spiez-kaufen-vd04307/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-wimmis-kaufen-lo586/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44858" data-post-id="44858" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-spiez-kaufen-vd04307/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -901,7 +902,7 @@ auf Anfrage</div></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-019db04 elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="019db04" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
 				<div class="elementor-widget-container">
-			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">ImmoWyss - Villa Bayside mit Sicht auf Thunersee und Schloss Spiez.</div></div></div>		</div>
+			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">ImmoWyss - Villa Bayside mit Sicht auf Thunersee und Schloss Spiez</div></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-34b4e5c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="34b4e5c" data-element_type="widget" data-widget_type="divider.default">
 				<div class="elementor-widget-container">
@@ -945,7 +946,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-spiez-kaufen-vd04307/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44219" data-post-id="44219" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-spiez-kaufen-yy032/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-spiez-kaufen-vd04307/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-45123" data-post-id="45123" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-spiez-kaufen-yy032/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1050,7 +1051,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-spiez-kaufen-yy032/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-43858" data-post-id="43858" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-thun-kaufen-op882/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-spiez-kaufen-yy032/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44762" data-post-id="44762" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-thun-kaufen-op882/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1163,7 +1164,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-thun-kaufen-op882/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44082" data-post-id="44082" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-biglen-kaufen-of744/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-thun-kaufen-op882/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44987" data-post-id="44987" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-biglen-kaufen-of744/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1272,7 +1273,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-biglen-kaufen-of744/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44033" data-post-id="44033" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-thun-kaufen-mz794/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-biglen-kaufen-of744/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44938" data-post-id="44938" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-thun-kaufen-mz794/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1381,7 +1382,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-thun-kaufen-mz794/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44123" data-post-id="44123" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-doppelhaushaelfte-in-zweisimmen-kaufen-pq422/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-thun-kaufen-mz794/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-45027" data-post-id="45027" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-doppelhaushaelfte-in-zweisimmen-kaufen-pq422/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1490,108 +1491,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-doppelhaushaelfte-in-zweisimmen-kaufen-pq422/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44092" data-post-id="44092" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-thun-kaufen-fw453/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
-						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-3751004 elementor-widget elementor-widget-price-table" data-id="3751004" data-element_type="widget" data-widget_type="price-table.default">
-				<div class="elementor-widget-container">
-			
-		<div class="elementor-price-table">
-			
-			<div class="elementor-price-table__price">
-												
-				
-				
-							</div>
-
-							<ul class="elementor-price-table__features-list">
-											<li class="elementor-repeater-item-317fdd0">
-							<div class="elementor-price-table__feature-inner">
-																&nbsp;							</div>
-						</li>
-									</ul>
-			
-					</div>
-
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-417fd6b elementor-cta--skin-cover elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="417fd6b" data-element_type="widget" data-widget_type="call-to-action.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-cta">
-					<div class="elementor-cta__bg-wrapper">
-				<div class="elementor-cta__bg elementor-bg" style="background-image: url(https://www.immowyss.ch/wp-content/uploads/immomakler/attachments/d6c5f0a323732a23232f74c8882ea18d/b1d79b4e-ab19-4ac5-ac8c-3c8ca22e8f8e.jpg);" role="img" aria-label="Mehrfamilienhaus in Thun"></div>
-				<div class="elementor-cta__bg-overlay"></div>
-			</div>
-							<div class="elementor-cta__content">
-				
-				
-									<div class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--grow">
-						.					</div>
-				
-							</div>
-						</div>
-				</div>
-				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-13303e6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13303e6" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-711736c" data-id="711736c" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-535b7f2 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="535b7f2" data-element_type="widget" data-widget_type="icon.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-wrapper">
-			<div class="elementor-icon">
-			<i aria-hidden="true" class="lnr lnr-map-marker"></i>			</div>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-0c94438 elementor-widget__width-auto elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="0c94438" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
-				<div class="elementor-widget-container">
-			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">3604</div></div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-44206e2 elementor-widget__width-auto elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="44206e2" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
-				<div class="elementor-widget-container">
-			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">Thun</div></div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-019db04 elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="019db04" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
-				<div class="elementor-widget-container">
-			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">ImmoWyss - Interessantes Mehrfamilienhaus für 4 Familien in Thun</div></div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-34b4e5c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="34b4e5c" data-element_type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1021858 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1021858" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-88e20a1" data-id="88e20a1" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-1405fdd elementor-widget__width-initial elementor-widget-laptop__width-initial elementor-widget-mobile_extra__width-initial elementor-widget-mobile__width-initial jedv-enabled--yes elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="1405fdd" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
-				<div class="elementor-widget-container">
-			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content"> <h6>Kaufpreis</h6>CHF 1'600'000</div></div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-67e21ed elementor-widget__width-initial elementor-widget-laptop__width-initial elementor-widget-mobile_extra__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="67e21ed" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
-				<div class="elementor-widget-container">
-			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content"> <h6>Grundstück</h6>646 m²</div></div></div>		</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-thun-kaufen-fw453/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-43907" data-post-id="43907" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-hilterfingen-kaufen-wn300/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-doppelhaushaelfte-in-zweisimmen-kaufen-pq422/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44811" data-post-id="44811" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-hilterfingen-kaufen-wn300/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1697,7 +1597,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-hilterfingen-kaufen-wn300/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44047" data-post-id="44047" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-kiesen-kaufen-fu748/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-hilterfingen-kaufen-wn300/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44951" data-post-id="44951" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-kiesen-kaufen-fu748/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1806,7 +1706,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-kiesen-kaufen-fu748/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44024" data-post-id="44024" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-belp-kaufen-lf398/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-kiesen-kaufen-fu748/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44928" data-post-id="44928" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-belp-kaufen-lf398/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1915,7 +1815,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-belp-kaufen-lf398/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-43967" data-post-id="43967" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-corcelles-pres-concise-kaufen-ig764/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-belp-kaufen-lf398/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44871" data-post-id="44871" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-corcelles-pres-concise-kaufen-ig764/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2025,7 +1925,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-corcelles-pres-concise-kaufen-ig764/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-43940" data-post-id="43940" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-hilterfingen-kaufen-hq651/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-corcelles-pres-concise-kaufen-ig764/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44844" data-post-id="44844" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-hilterfingen-kaufen-hq651/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2135,7 +2035,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-hilterfingen-kaufen-hq651/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44191" data-post-id="44191" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-muehleberg-kaufen-sk967/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-hilterfingen-kaufen-hq651/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-45096" data-post-id="45096" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-muehleberg-kaufen-sk967/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2249,7 +2149,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-muehleberg-kaufen-sk967/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-43867" data-post-id="43867" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-thun-kaufen-yx890/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-muehleberg-kaufen-sk967/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44771" data-post-id="44771" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-thun-kaufen-yx890/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2363,7 +2263,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-thun-kaufen-yx890/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44068" data-post-id="44068" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-zweifamilienhaus-in-oberhofen-kaufen-pi405/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-reihenhaus-in-thun-kaufen-yx890/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44973" data-post-id="44973" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-zweifamilienhaus-in-oberhofen-kaufen-pi405/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2473,7 +2373,7 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-zweifamilienhaus-in-oberhofen-kaufen-pi405/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44203" data-post-id="44203" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-spiez-kaufen-rl325/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-zweifamilienhaus-in-oberhofen-kaufen-pi405/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-45107" data-post-id="45107" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-spiez-kaufen-rl325/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -2579,7 +2479,113 @@ auf Anfrage</div></div></div>		</div>
 					</div>
 		</section>
 				</div>
-		<a href="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-spiez-kaufen-rl325/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44057" data-post-id="44057" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-einigen-kaufen-xh521/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+		<a href="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-spiez-kaufen-rl325/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44996" data-post-id="44996" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-thun-kaufen-fw453/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3751004 elementor-widget elementor-widget-price-table" data-id="3751004" data-element_type="widget" data-widget_type="price-table.default">
+				<div class="elementor-widget-container">
+			
+		<div class="elementor-price-table">
+			
+			<div class="elementor-price-table__price">
+												
+				
+				
+							</div>
+
+							<ul class="elementor-price-table__features-list">
+											<li class="elementor-repeater-item-317fdd0">
+							<div class="elementor-price-table__feature-inner">
+																&nbsp;							</div>
+						</li>
+									</ul>
+			
+					</div>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-417fd6b elementor-cta--skin-cover elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="417fd6b" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div class="elementor-cta__bg elementor-bg" style="background-image: url(https://www.immowyss.ch/wp-content/uploads/immomakler/attachments/d6c5f0a323732a23232f74c8882ea18d/b1d79b4e-ab19-4ac5-ac8c-3c8ca22e8f8e.jpg);" role="img" aria-label="Mehrfamilienhaus in Thun"></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+				
+									<div class="elementor-cta__description elementor-cta__content-item elementor-content-item elementor-animated-item--grow">
+						.					</div>
+				
+							</div>
+						</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-fa37fec elementor-widget__width-inherit elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="fa37fec" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
+				<div class="elementor-widget-container">
+			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">RESERVIERT</div></div></div>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-13303e6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13303e6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-711736c" data-id="711736c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-535b7f2 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="535b7f2" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="lnr lnr-map-marker"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-0c94438 elementor-widget__width-auto elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="0c94438" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
+				<div class="elementor-widget-container">
+			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">3604</div></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-44206e2 elementor-widget__width-auto elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="44206e2" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
+				<div class="elementor-widget-container">
+			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">Thun</div></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-019db04 elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="019db04" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
+				<div class="elementor-widget-container">
+			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content">ImmoWyss - Interessantes Mehrfamilienhaus für 4 Familien in Thun</div></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-34b4e5c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="34b4e5c" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-1021858 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1021858" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-88e20a1" data-id="88e20a1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-28f00c4 elementor-widget__width-initial elementor-widget-laptop__width-initial elementor-widget-mobile_extra__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="28f00c4" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
+				<div class="elementor-widget-container">
+			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content"><h6>Kaufpreis</h6>
+auf Anfrage</div></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-67e21ed elementor-widget__width-initial elementor-widget-laptop__width-initial elementor-widget-mobile_extra__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-jet-listing-dynamic-field" data-id="67e21ed" data-element_type="widget" data-widget_type="jet-listing-dynamic-field.default">
+				<div class="elementor-widget-container">
+			<div class="jet-listing jet-listing-dynamic-field display-inline"><div class="jet-listing-dynamic-field__inline-wrap"><div class="jet-listing-dynamic-field__content"> <h6>Grundstück</h6>646 m²</div></div></div>		</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		<a href="https://www.immowyss.ch/immobilien/haus-mehrfamilienhaus-in-thun-kaufen-fw453/" class="jet-engine-listing-overlay-link" target="_blank"></a></div></div><div class="jet-listing-grid__item jet-listing-dynamic-post-44961" data-post-id="44961" ><div class="jet-engine-listing-overlay-wrap" data-url="https://www.immowyss.ch/immobilien/haus-einfamilienhaus-in-einigen-kaufen-xh521/" data-target="_blank">		<div data-elementor-type="jet-listing-items" data-elementor-id="1764" class="elementor elementor-1764" data-elementor-post-type="jet-engine">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-c1a142d elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="c1a142d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b6d49f7" data-id="b6d49f7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -5303,7 +5309,7 @@ auf Anfrage</div></div></div>		</div>
 <script src="https://www.immowyss.ch/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
 <script src="https://www.immowyss.ch/wp-content/plugins/jet-engine/assets/lib/jet-plugins/jet-plugins.js?ver=1.1.0" id="jet-plugins-js"></script>
 <script id="jet-engine-frontend-js-extra">
-var JetEngineSettings = {"ajaxurl":"https:\/\/www.immowyss.ch\/wp-admin\/admin-ajax.php","ajaxlisting":"https:\/\/www.immowyss.ch\/haus-kaufen-thun\/?nocache=1718566543","restNonce":"9c4803db08","hoverActionTimeout":"400","addedPostCSS":["1764"]};
+var JetEngineSettings = {"ajaxurl":"https:\/\/www.immowyss.ch\/wp-admin\/admin-ajax.php","ajaxlisting":"https:\/\/www.immowyss.ch\/haus-kaufen-thun\/?nocache=1718797552","restNonce":"2358c2bd0a","hoverActionTimeout":"400","addedPostCSS":["1764"]};
 </script>
 <script src="https://www.immowyss.ch/wp-content/plugins/jet-engine/assets/js/frontend.js?ver=3.4.2" id="jet-engine-frontend-js"></script>
 <script id="borlabs-cookie-js-extra">
@@ -5342,7 +5348,7 @@ BorlabsCookieInitCheck();});
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 </script>
 <script id="elementor-pro-frontend-js-before">
-var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.immowyss.ch\/wp-admin\/admin-ajax.php","nonce":"942651baf7","urls":{"assets":"https:\/\/www.immowyss.ch\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.immowyss.ch\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"de_CH","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.immowyss.ch\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.immowyss.ch\/wp-admin\/admin-ajax.php","nonce":"1bf4460874","urls":{"assets":"https:\/\/www.immowyss.ch\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.immowyss.ch\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"de_CH","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.immowyss.ch\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
 <script src="https://www.immowyss.ch/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.21.3" id="elementor-pro-frontend-js"></script>
 <script src="https://www.immowyss.ch/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
