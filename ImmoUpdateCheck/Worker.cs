@@ -108,11 +108,12 @@ namespace ImmoUpdateCheck
 
                 ct.ThrowIfCancellationRequested();
                 var changedSites = sites.Where(x => x.ContentChanged).ToList();
+                _logger.LogInformation($"{changedSites.Count() / sites.Count()} Websites changed");
                 if (changedSites.Count > 0)
                 {
                     string mailBody = "Following Websites have changed:" + Environment.NewLine;
                     mailBody += string.Join(Environment.NewLine, changedSites.Select(x => $"{x.Name}:  {x.Url}"));
-                    await Mailer.SendMailAsync(smtpSender, receivers, smtpServer, smtpPassword, smtpPort.Value, "New immobiles for sale :-)", mailBody, _logger, ct);
+                    //await Mailer.SendMailAsync(smtpSender, receivers, smtpServer, smtpPassword, smtpPort.Value, "New immobiles for sale :-)", mailBody, _logger, ct);
                     _logger.LogInformation($"{changedSites.Count} Websites changed. Mail sent");
                 }
                 #endregion
