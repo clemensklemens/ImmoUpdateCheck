@@ -55,9 +55,9 @@ namespace ImmoUpdateCheck
             });
         }
 
-        public async Task<IEnumerable<(string name, string url)>> LoadSiteCSVAsync(string filePath, string dumpDir, CancellationToken ct)
+        public async Task<IEnumerable<(string name, string url, string checkNode)>> LoadSiteCSVAsync(string filePath, string dumpDir, CancellationToken ct)
         {
-            var sites = new List<(string name, string url)>();
+            var sites = new List<(string name, string url, string checkNode)>();
             try
             {
                 var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture)
@@ -72,7 +72,7 @@ namespace ImmoUpdateCheck
                 await foreach (var record in records)
                 {
                     ct.ThrowIfCancellationRequested();
-                    sites.Add(new (record.AgencyName, record.CheckURL));
+                    sites.Add(new (record.AgencyName, record.CheckURL, record.CheckNode));
                 }
             }
             catch (Exception ex) when (ex is not OperationCanceledException)
@@ -87,6 +87,7 @@ namespace ImmoUpdateCheck
         {
             public string AgencyName { get; set; } = string.Empty;
             public string CheckURL { get; set; } = string.Empty;
+            public string CheckNode { get; set; } = string.Empty;
         }
     }
 }

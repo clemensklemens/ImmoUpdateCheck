@@ -85,7 +85,7 @@ namespace ImmoUpdateCheck
                 #region mainpart                
                 var fileIO = new FileIO(lastContentPath, _logger);
                 var sitesTmp = await fileIO.LoadSiteCSVAsync(filePath, lastContentPath, ct);
-                var sites = sitesTmp.Select(x => new CheckSite(x.name, x.url, lastContentPath, _logger)).ToList();
+                var sites = sitesTmp.Select(x => new CheckSite(x.name, x.url, lastContentPath, x.checkNode, _logger)).ToList();
                 _logger.LogInformation($"Found {sites.Count} Websites to check");
                 await fileIO.CleanSiteDumpsAsync(lastContentPath, sites.Select(x => x.DumpName), ct);
 

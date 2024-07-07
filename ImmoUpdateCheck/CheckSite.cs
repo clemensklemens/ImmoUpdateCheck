@@ -3,13 +3,14 @@ using System.Net;
 
 namespace ImmoUpdateCheck
 {
-    public class CheckSite(string name, string url, string lastContentPath, ILogger logger)
+    public class CheckSite(string name, string url, string lastContentPath, string compareNode, ILogger logger)
     {
         private readonly ILogger _logger = logger;
 
         public string Name { get; set; } = name;
         public string DumpName { get => Path.Combine(_lastContentPath, Name.Replace(" ", "_") + ".html"); }
         public string Url { get; set; } = url;
+        public string CompareNode { get; set; } = string.Empty;
         public bool ContentChanged { get; set; } = false;
         private readonly string _lastContentPath = lastContentPath;
 
@@ -19,7 +20,7 @@ namespace ImmoUpdateCheck
             var newHtml  = await GetContentAsync(ct);
             var oldHtml = GetLastContent();
             
-            if (HTMLCompare.Compare(newHtml, oldHtml))
+            if (HTMLCompare.Compare(newHtml, oldHtml, compareNode))
             {
                 ContentChanged = true;
                 newHtml.Save(DumpName);
