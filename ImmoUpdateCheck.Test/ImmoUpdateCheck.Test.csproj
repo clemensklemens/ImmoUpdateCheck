@@ -34,6 +34,18 @@
 	<None Update="TestFiles\Different12.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+	<None Update="TestFiles\Different21.html">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+	<None Update="TestFiles\Different22.html">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+	<None Update="TestFiles\Different31.html">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
+	<None Update="TestFiles\Different32.html">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</None>
     <None Update="TestFiles\Same11.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

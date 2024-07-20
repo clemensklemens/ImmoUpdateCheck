@@ -65,7 +65,7 @@ namespace ImmoUpdateCheck
 
         private static int CountNodes(HtmlDocument document, string compareNode)
         {
-            string xpath = $"//*[contains(text(), '{compareNode}')]";
+            string xpath = $"//*[contains(text(), '{compareNode.ToLower()}')]";
             var nodes = document.DocumentNode.SelectNodes(xpath);
             return nodes?.Count ?? 0;
         }
