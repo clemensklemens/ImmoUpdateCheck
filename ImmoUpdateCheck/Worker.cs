@@ -79,15 +79,15 @@ namespace ImmoUpdateCheck
                     _logger.LogError("No SmtpSender defined in appsettings.json");
                     return;
                 }
-                _logger.LogInformation($"Settings successfully read. Timer is {intervallMin} min");
+                _logger.LogInformation("Settings successfully read. Timer is {intervallMin} min", intervallMin);
                 #endregion
 
                 #region mainpart                
                 var fileIO = new FileIO(lastContentPath, _logger);
-                var sitesTmp = await fileIO.LoadSiteCSVAsync(filePath, lastContentPath, ct);
-                var sites = sitesTmp.Select(x => new CheckSite(x.name, x.url, lastContentPath, x.checkNode, _logger)).ToList();
-                _logger.LogInformation($"Found {sites.Count} Websites to check");
-                await fileIO.CleanSiteDumpsAsync(lastContentPath, sites.Select(x => x.DumpName), ct);
+                var sitesTmp = await fileIO.LoadSiteCSVAsync(filePath, ct);
+                var sites = sitesTmp.Select(x => new CheckSite(x.name, x.url, lastContentPath, x.nodeType, x.nodeAttribute, x.nodeText, _logger)).ToList();
+                _logger.LogInformation("Found {sites.Count} Websites to check", sites.Count);
+                await fileIO.CleanSiteDumpsAsync(sites.Select(x => x.DumpName), ct);
 
                 ParallelOptions po = new()
                 {
@@ -103,18 +103,18 @@ namespace ImmoUpdateCheck
                 }
                 catch(Exception ex) when (ex is not OperationCanceledException)
                 {
-                    _logger.LogError($"Error checking sites: {ex.Message}");
+                    _logger.LogError("Error checking sites: {ex.Message}", ex.Message);
                 }
 
                 ct.ThrowIfCancellationRequested();
                 var changedSites = sites.Where(x => x.ContentChanged).ToList();
-                _logger.LogInformation($"{changedSites.Count() / sites.Count()} Websites changed");
+                _logger.LogInformation("{changedSites.Count} / {sites.Count} Websites changed", changedSites.Count, sites.Count);
                 if (changedSites.Count > 0)
                 {
                     string mailBody = "Following Websites have changed:" + Environment.NewLine;
                     mailBody += string.Join(Environment.NewLine, changedSites.Select(x => $"{x.Name}:  {x.Url}"));
-                    //await Mailer.SendMailAsync(smtpSender, receivers, smtpServer, smtpPassword, smtpPort.Value, "New immobiles for sale :-)", mailBody, _logger, ct);
-                    _logger.LogInformation($"{changedSites.Count} Websites changed. Mail sent");
+                    await Mailer.SendMailAsync(smtpSender, receivers, smtpServer, smtpPassword, smtpPort.Value, "New immobiles for sale :-)", mailBody, _logger, ct);
+                    _logger.LogInformation("{changedSites.Count} Websites changed. Mail sent", changedSites.Count);
                 }
                 #endregion
                 await Task.Delay(intervallMin * 60 * 1000, ct);

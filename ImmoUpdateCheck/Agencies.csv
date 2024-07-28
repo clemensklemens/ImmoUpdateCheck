@@ -1,4 +1,6 @@
-AgencyName,CheckURL
-Jenni Immobilien,https://angebote.jenni-immo.ch
-Immo Wyss Haus Kauf,https://www.immowyss.ch/haus-kaufen-thun/
-Immo Wyss Wohnungs Kauf,https://www.immowyss.ch/wohnung-kaufen-thun/
+AgencyName,CheckURL,NodeType,NodeAttribute,NodeText,
+Jenni Immobilien,https://angebote.jenni-immo.ch,a,"href=\""/de/objects/detail",
+Immo Wyss Haus Kauf,https://www.immowyss.ch/haus-kaufen-thun,a,"href=\""https://www.immowyss.ch",
+Immo Wyss Wohnungs Kauf,https://www.immowyss.ch/wohnung-kaufen-thun,a,"href=\""https://www.immowyss.ch",
+Wyss Liegenschaften,https://wyssliegenschaften.ch/angebot/immobilien,span,,Anzahl Zimmer
+3hoch3,https://3h3.ch/immobilien/?availabilities%5B%5D=active&availabilities%5B%5D=reserved&availabilities%5B%5D=taken&salestype%5B%5D=buy,a,"href=\""https://3h3.ch",

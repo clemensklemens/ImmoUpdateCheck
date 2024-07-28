@@ -12,19 +12,19 @@ namespace ImmoUpdateCheck
         /// <param name="site1"></param>
         /// <param name="site2"></param>
         /// <returns></returns>
-        public static bool Compare(HtmlDocument site1, HtmlDocument site2, string compareNode)
+        public static bool Compare(HtmlDocument site1, HtmlDocument site2, string nodeType, string nodeAttribute, string nodeText = "")
         {
             bool different = false;
-            if (string.IsNullOrWhiteSpace(compareNode))
+            if (string.IsNullOrWhiteSpace(nodeText))
             {
-                if (NormalizeContent(RemoveUnwantedTags(site1).ParsedText) != NormalizeContent(RemoveUnwantedTags(site2).ParsedText))
+                if (CountNodes(site1, nodeType, nodeAttribute) != CountNodes(site2, nodeType, nodeAttribute))
                 {
                     different = true;
                 }
             }
             else
             {
-                if(CountNodes(site1, compareNode) != CountNodes(site2, compareNode))
+                if(CountNodes(site1, nodeType, nodeAttribute, nodeText) != CountNodes(site2, nodeType, nodeAttribute, nodeText))
                 {
                     different = true;
                 }
@@ -32,40 +32,16 @@ namespace ImmoUpdateCheck
             return different;
         }
 
-        private static HtmlDocument RemoveUnwantedTags(HtmlDocument document)
+        private static int CountNodes(HtmlDocument document, string nodeType, string nodeAttribute)
         {
-            document.DocumentNode.Descendants()
-                    .Where(n => n.Name == "script" || n.Name == "style")
-                    .ToList()
-                    .ForEach(n => n.Remove());
-
-            // Remove elements by class name, e.g., "jet"
-            document.DocumentNode.Descendants()
-                    .Where(n => n.GetAttributeValue("class", "").Contains("jet"))
-                    .ToList()
-                    .ForEach(n => n.Remove());
-            return document;
+            string xpath = $"//{nodeType}['{nodeAttribute}']";
+            var nodes = document.DocumentNode.SelectNodes(xpath);
+            return nodes?.Count ?? 0;
         }
 
-        private static string NormalizeContent(string content)
+        private static int CountNodes(HtmlDocument document, string nodeType, string nodeAttribute, string nodeText)
         {
-            // Example normalization: Remove dynamic query parameters from URLs
-            // This is a simplistic approach; you may need a more sophisticated method
-            // depending on the structure and nature of the content.     
-            if (string.IsNullOrWhiteSpace(content))
-            {
-                return string.Empty;
-            }
-            return Regex.Replace(content
-                .Trim()
-                .Replace(" ", "")
-                .ToLower()
-                .ReplaceLineEndings(), @"nocache=\d+", string.Empty);
-        }
-
-        private static int CountNodes(HtmlDocument document, string compareNode)
-        {
-            string xpath = $"//*[contains(text(), '{compareNode.ToLower()}')]";
+            string xpath = $"//{nodeType}['{nodeAttribute}' and contains(text(), '{nodeText}')]";
             var nodes = document.DocumentNode.SelectNodes(xpath);
             return nodes?.Count ?? 0;
         }

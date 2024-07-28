@@ -1,16 +1,15 @@
 ﻿using CsvHelper.Configuration;
 using CsvHelper;
 using System.Globalization;
-using NLog.Layouts;
 
 namespace ImmoUpdateCheck
 {
     internal class FileIO(string lastContentPath, ILogger logger)
     {
-        private string _lastContentPath = lastContentPath;       
+        private readonly string _lastContentPath = lastContentPath;       
         private readonly ILogger _logger = logger;
 
-        internal async Task CleanSiteDumpsAsync(string dumpDir, IEnumerable<string> sites, CancellationToken ct)
+        internal async Task CleanSiteDumpsAsync(IEnumerable<string> sites, CancellationToken ct)
         {
             List<string> dumpFiles = [];
             EnumerationOptions options = new()
@@ -21,18 +20,18 @@ namespace ImmoUpdateCheck
 
             try
             {
-                foreach (var file in Directory.EnumerateFiles(dumpDir).AsParallel())
+                foreach (var file in Directory.EnumerateFiles(_lastContentPath).AsParallel())
                 {
                     dumpFiles.Add(file);
                 }
             }
             catch (DirectoryNotFoundException)
             {
-                Directory.CreateDirectory(dumpDir);
+                Directory.CreateDirectory(_lastContentPath);
             }
             catch (Exception ex) when (ex is not OperationCanceledException)
             {
-                _logger.LogError($"Error reading dump directory: {ex.Message}");
+                _logger.LogError("Error reading dump directory: {ex.Message}", ex.Message);
             }
 
             var filesToDelete = dumpFiles.Except(sites);
@@ -50,14 +49,14 @@ namespace ImmoUpdateCheck
                 }
                 catch (Exception ex) when (ex is not OperationCanceledException)
                 {
-                    _logger.LogError($"Error deleting file {file}: {ex.Message}");
+                    _logger.LogError("Error deleting file {file}: {ex.Message}", file, ex.Message);
                 }
             });
         }
 
-        public async Task<IEnumerable<(string name, string url, string checkNode)>> LoadSiteCSVAsync(string filePath, string dumpDir, CancellationToken ct)
+        public async Task<IEnumerable<(string name, string url, string nodeType, string nodeAttribute, string nodeText)>> LoadSiteCSVAsync(string filePath, CancellationToken ct)
         {
-            var sites = new List<(string name, string url, string checkNode)>();
+            var sites = new List<(string name, string url, string nodeType, string nodeAttribute, string nodeText)>();
             try
             {
                 var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture)
@@ -68,16 +67,16 @@ namespace ImmoUpdateCheck
                 using var streamReader = File.OpenText(filePath);
                 using var csvReader = new CsvReader(streamReader, csvConfig);
 
-                var records = csvReader.GetRecordsAsync<CsvMapping>().WithCancellation(ct);
+                var records = csvReader.GetRecordsAsync<CsvMapping>(ct).WithCancellation(ct);
                 await foreach (var record in records)
                 {
                     ct.ThrowIfCancellationRequested();
-                    sites.Add(new (record.AgencyName, record.CheckURL, record.CheckNode));
+                    sites.Add(new (record.AgencyName, record.CheckURL, record.NodeType, record.NodeAttribute, record.NodeText));
                 }
             }
             catch (Exception ex) when (ex is not OperationCanceledException)
             {
-                _logger.LogError($"Error loading CSV: {ex.Message}");
+                _logger.LogError("Error loading CSV: {ex.Message}", ex.Message);
             }
 
             return sites;
@@ -87,7 +86,9 @@ namespace ImmoUpdateCheck
         {
             public string AgencyName { get; set; } = string.Empty;
             public string CheckURL { get; set; } = string.Empty;
-            public string CheckNode { get; set; } = string.Empty;
+            public string NodeType { get; set; } = string.Empty;
+            public string NodeAttribute { get; set; } = string.Empty;
+            public string NodeText { get; set; } = string.Empty;
         }
     }
 }
