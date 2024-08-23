@@ -107,14 +107,17 @@ namespace ImmoUpdateCheck
                 }
 
                 ct.ThrowIfCancellationRequested();
-                var changedSites = sites.Where(x => x.ContentChanged).ToList();
+                var changedSites = sites.Where(x => x.ContentChanged && !x.CheckFailed).ToList();
+                var failedSites = sites.Where(x => x.CheckFailed).ToList();
                 _logger.LogInformation("{changedSites.Count} / {sites.Count} Websites changed", changedSites.Count, sites.Count);
-                if (changedSites.Count > 0)
+                if (changedSites.Count > 0 || failedSites.Count > 0)
                 {
                     string mailBody = "Following Websites have changed:" + Environment.NewLine;
                     mailBody += string.Join(Environment.NewLine, changedSites.Select(x => $"{x.Name}:  {x.Url}"));
-                    await Mailer.SendMailAsync(smtpSender, receivers, smtpServer, smtpPassword, smtpPort.Value, "New immobiles for sale :-)", mailBody, _logger, ct);
-                    _logger.LogInformation("{changedSites.Count} Websites changed. Mail sent", changedSites.Count);
+                    mailBody += Environment.NewLine + "Following Websites failed:" + Environment.NewLine;
+                    mailBody += string.Join(Environment.NewLine, failedSites.Select(x => $"{x.Name}:  {x.Url}"));
+                    await Mailer.SendMailAsync(smtpSender, receivers, smtpServer, smtpPassword, smtpPort.Value, $"ImmoCheck Summary {DateTime.Now}", mailBody, _logger, ct);
+                    _logger.LogInformation("{changedSites.Count} Websites changed. {failedSites.Count} Websites failed. Mail sent", changedSites.Count, failedSites.Count);
                 }
                 #endregion
                 await Task.Delay(intervallMin * 60 * 1000, ct);

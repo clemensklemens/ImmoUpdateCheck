@@ -1,4 +1,5 @@
 ﻿using HtmlAgilityPack;
+using System.Linq.Expressions;
 using System.Net;
 
 namespace ImmoUpdateCheck
@@ -14,35 +15,53 @@ namespace ImmoUpdateCheck
         public string NodeAttribute { get; set; } = nodeAttribute;
         public string NodeText { get; set; } = nodeText;
         public bool ContentChanged { get; set; } = false;
+        public bool CheckFailed { get; set; } = false;
 
         public async Task CheckAsync(CancellationToken ct)
         {
             ContentChanged = false;
             var newHtml  = await GetContentAsync(ct);
             var oldHtml = GetLastContent();
-            
-            if (HTMLCompare.Compare(newHtml, oldHtml, NodeType, NodeAttribute, NodeText))
+
+            try
             {
-                ContentChanged = true;
+                ContentChanged = !CheckFailed && HTMLCompare.Compare(newHtml, oldHtml, NodeType, NodeAttribute, NodeText);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error comparing content for {Name}: {ex.Message}", Name, ex.Message);
+                CheckFailed = true;
+            }
+            finally
+            {
                 newHtml.Save(DumpName);
             }
         }
 
         private async Task<HtmlDocument> GetContentAsync(CancellationToken ct)
         {
-            var web = new HtmlWeb
+            try
             {
-                UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
-                UseCookies = true
-            };
-            web.PreRequest += request =>
-            {
-                request.CookieContainer = new CookieContainer();
-                return true;
-            };
+                var web = new HtmlWeb
+                {
+                    UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+                    UseCookies = true
+                };
+                web.PreRequest += request =>
+                {
+                    request.CookieContainer = new CookieContainer();
+                    return true;
+                };
 
-            var htmlDoc = await web.LoadFromWebAsync(Url, ct);
-            return htmlDoc;
+                var htmlDoc = await web.LoadFromWebAsync(Url, ct);
+                return htmlDoc;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error loading content for {Name}: {ex.Message}", Name, ex.Message);
+                CheckFailed = true;
+                return new HtmlDocument();
+            }
         }
 
         private HtmlDocument GetLastContent()

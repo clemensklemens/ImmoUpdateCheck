@@ -1,5 +1,6 @@
 ﻿using HtmlAgilityPack;
 using System.Text.RegularExpressions;
+using System.Xml.Linq;
 
 namespace ImmoUpdateCheck
 {
@@ -35,15 +36,35 @@ namespace ImmoUpdateCheck
         private static int CountNodes(HtmlDocument document, string nodeType, string nodeAttribute)
         {
             string xpath = $"//{nodeType}['{nodeAttribute}']";
-            var nodes = document.DocumentNode.SelectNodes(xpath);
-            return nodes?.Count ?? 0;
+            if (NodeExists(document, xpath))
+            {
+                var nodes = document.DocumentNode.SelectNodes(xpath);
+                return nodes?.Count ?? 0;
+            }
+            else
+            {
+                throw new System.ArgumentException("Node not found", nodeAttribute);
+            }
         }
 
         private static int CountNodes(HtmlDocument document, string nodeType, string nodeAttribute, string nodeText)
         {
             string xpath = $"//{nodeType}['{nodeAttribute}' and contains(text(), '{nodeText}')]";
-            var nodes = document.DocumentNode.SelectNodes(xpath);
-            return nodes?.Count ?? 0;
+            if (NodeExists(document, xpath))
+            {
+                var nodes = document.DocumentNode.SelectNodes(xpath);
+                return nodes?.Count ?? 0;
+            }
+            else
+            {
+                throw new System.ArgumentException("Node not found", nodeAttribute);
+            }
+        }
+
+        private static bool NodeExists(HtmlDocument document, string xpath)
+        {
+            var node = document.DocumentNode.SelectSingleNode(xpath);
+            return node is not null;
         }
     }
 }
